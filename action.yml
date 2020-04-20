@@ -1,0 +1,47 @@
+name: 'Run mysqldef'
+description: '🐶 Run mysqldef'
+author: 'k0kubun (mysqldef)'
+inputs:
+  github_token:
+    description: 'GITHUB_TOKEN.'
+    required: true
+  github_repository:
+    description: 'GITHUB_REPOSITORY.'
+    required: true
+  mysql_host:
+    description: 'MYSQL_HOST'
+    default: '127.0.0.1'
+  mysql_port:
+    description: 'MYSQL_PORT'
+    default: '3306'
+  mysql_user:
+    description: 'MYSQL_USER'
+    required: true
+  mysql_password:
+    description: 'MYSQL_PASSWORD'
+    required: true
+  mysql_database:
+    description: 'MYSQL_DATABASE'
+    required: true
+  schema_path:
+    description: 'SCHEMA_PATH'
+    required: true
+  sqlboiler_output:
+    description: 'SQLBOILER_OUTPUT'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.github_token }}
+    - ${{ inputs.github_repository }}
+    - ${{ inputs.mysql_host }}
+    - ${{ inputs.mysql_port }}
+    - ${{ inputs.mysql_user }}
+    - ${{ inputs.mysql_password }}
+    - ${{ inputs.mysql_database }}
+    - ${{ inputs.schema_path }}
+    - ${{ inputs.sqlboiler_output }}
+branding:
+  icon: 'edit'
+  color: 'gray-dark'
