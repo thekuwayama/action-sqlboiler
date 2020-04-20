@@ -23,8 +23,8 @@ inputs:
   mysql_database:
     description: 'MYSQL_DATABASE'
     required: true
-  schema_path:
-    description: 'SCHEMA_PATH'
+  sqlboiler_path:
+    description: 'SQLBOILER_PATH'
     required: true
   sqlboiler_output:
     description: 'SQLBOILER_OUTPUT'
@@ -40,7 +40,7 @@ runs:
     - ${{ inputs.mysql_user }}
     - ${{ inputs.mysql_password }}
     - ${{ inputs.mysql_database }}
-    - ${{ inputs.schema_path }}
+    - ${{ inputs.sqlboiler_path }}
     - ${{ inputs.sqlboiler_output }}
 branding:
   icon: 'edit'
