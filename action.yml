@@ -25,10 +25,10 @@ inputs:
     required: true
   sqlboiler_path:
     description: 'SQLBOILER_PATH'
-    required: true
+    default: 'sqlboiler.yml'
   sqlboiler_output:
     description: 'SQLBOILER_OUTPUT'
-    required: true
+    default: 'models'
 runs:
   using: 'docker'
   image: 'Dockerfile'
