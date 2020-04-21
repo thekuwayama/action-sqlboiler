@@ -1,3 +1,10 @@
+### [1.0.4](https://github.com/locona/action-sqlboiler/compare/v1.0.3...v1.0.4) (2020-04-21)
+
+
+### Bug Fixes
+
+* apply host name. ([b82539e](https://github.com/locona/action-sqlboiler/commit/b82539e7885a2b36214d2756d4beb43ec5e4950e))
+
 ### [1.0.3](https://github.com/locona/action-sqlboiler/compare/v1.0.2...v1.0.3) (2020-04-21)
 
 
