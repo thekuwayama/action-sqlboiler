@@ -1,6 +1,6 @@
-name: 'Run mysqldef'
-description: '🐶 Run mysqldef'
-author: 'k0kubun (mysqldef)'
+name: 'Run sqlboiler'
+description: '🐶 Run sqlboiler'
+author: 'locona (sqlboiler)'
 inputs:
   github_token:
     description: 'GITHUB_TOKEN.'
