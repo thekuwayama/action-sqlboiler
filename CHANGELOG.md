@@ -1,3 +1,10 @@
+### [1.0.2](https://github.com/locona/action-sqlboiler/compare/v1.0.1...v1.0.2) (2020-04-21)
+
+
+### Bug Fixes
+
+* fix entrypoint.sh ([14d4d67](https://github.com/locona/action-sqlboiler/commit/14d4d67c4a6cc28d670c183f25033576f07e7789))
+
 ### [1.0.1](https://github.com/locona/action-sqlboiler/compare/v1.0.0...v1.0.1) (2020-04-21)
 
 
