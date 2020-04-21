@@ -10,7 +10,7 @@ inputs:
     required: true
   mysql_host:
     description: 'MYSQL_HOST'
-    default: '127.0.0.1'
+    default: 'mysql'
   mysql_port:
     description: 'MYSQL_PORT'
     default: '3306'

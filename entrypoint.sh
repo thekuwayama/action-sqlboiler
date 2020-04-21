@@ -12,6 +12,7 @@ echo "MYSQL_DATABASE: ${INPUT_MYSQL_DATABASE}"
 echo "SQLBOILER_OUTPUT: ${INPUT_SQLBOILER_OUTPUT}"
 
 sed -i -e "/dbname:/s/dbname: .*$/dbname:  ${INPUT_MYSQL_DATABASE}/" ${INPUT_SQLBOILER_PATH}
+sed -i -e "/host:/s/host: .*$/host:  ${INPUT_MYSQL_HOST}/" ${INPUT_SQLBOILER_PATH}
 sed -i -e "/user:/s/user: .*$/user:  ${INPUT_MYSQL_USER}/" ${INPUT_SQLBOILER_PATH}
 sed -i -e "/pass:/s/pass: .*$/pass:  ${INPUT_MYSQL_PASSWORD}/" ${INPUT_SQLBOILER_PATH}
 sed -i -e "/port:/s/port: .*$/port:  ${INPUT_MYSQL_PORT}/" ${INPUT_SQLBOILER_PATH}
