@@ -1,3 +1,10 @@
+### [1.0.3](https://github.com/locona/action-sqlboiler/compare/v1.0.2...v1.0.3) (2020-04-21)
+
+
+### Docs
+
+* Fix docs ([2b6158f](https://github.com/locona/action-sqlboiler/commit/2b6158f936937be4b3f6b85ff6d5f03f8ad0ce00))
+
 ### [1.0.2](https://github.com/locona/action-sqlboiler/compare/v1.0.1...v1.0.2) (2020-04-21)
 
 
