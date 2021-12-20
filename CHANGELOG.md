@@ -1,3 +1,10 @@
+### [1.0.5](https://github.com/locona/action-sqlboiler/compare/v1.0.4...v1.0.5) (2021-12-20)
+
+
+### Bug Fixes
+
+* **docker:** update Dockerfile for sqlboiler-mysql ([#40](https://github.com/locona/action-sqlboiler/issues/40)) ([3f09ac1](https://github.com/locona/action-sqlboiler/commit/3f09ac1bf31052c15aa68fc720a5af4f1a2d8bf0))
+
 ### [1.0.4](https://github.com/locona/action-sqlboiler/compare/v1.0.3...v1.0.4) (2020-04-21)
 
 
